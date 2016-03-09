@@ -29,8 +29,8 @@ dependencies {
     compile 'com.android.support:appcompat-v7:23.2.0'
     compile "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
 
-    compile 'com.github.hotchemi:permissionsdispatcher:2.0.7'
-    kapt 'com.github.hotchemi:permissionsdispatcher-processor:2.0.7'
+    compile 'com.github.hotchemi:permissionsdispatcher:2.0.8'
+    kapt 'com.github.hotchemi:permissionsdispatcher-processor:2.0.8'
 }
 buildscript {
     ext.kotlin_version = '1.0.0'

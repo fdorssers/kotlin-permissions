@@ -16,7 +16,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         findViewById(R.id.btn_camera).setOnClickListener {
-            //            MainActivityPermissionsDispatcher.showCameraWithCheck(this)
+            MainActivityPermissionsDispatcher.showCameraWithCheck(this)
         }
     }
 
